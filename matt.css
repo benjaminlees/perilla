@@ -1,0 +1,55 @@
+body, html {
+	width: 100%;
+}
+
+div {
+	width: 50%;
+    word-wrap: break-word;
+}
+
+#out-put {
+	width: 50%;
+}
+
+.matt {
+	position:relative;
+	margin:1px;
+	top:1px;
+	font-family: "HelveticaNeue-CondensedBold"
+}
+
+.matt1 {
+	position:relative;
+	margin:1px;
+	left:2px;
+	font-family: "HelveticaNeue-CondensedBold"
+}
+.matt2 {
+	position:relative;
+	margin:1px;
+	left:1px;
+	bottom:1px;
+	font-family: "HelveticaNeue-CondensedBold"
+}
+
+.matt3 {
+	position:relative;
+	margin:1px;
+	right:1px;
+	bottom:1px;
+	font-family: "HelveticaNeue-CondensedBold"
+}
+
+.matt4 {
+	position:relative;
+	margin:1px;
+	right:1px;
+	top:1px;
+	font-family: "HelveticaNeue-CondensedBold"
+}
+.matt5 {
+	position:relative;
+	margin:1px;
+	right:2px;
+	font-family: "HelveticaNeue-CondensedBold"
+}
