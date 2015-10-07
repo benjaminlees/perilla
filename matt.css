@@ -2,6 +2,10 @@ body, html {
 	width: 100%;
 }
 
+span {
+	font-weight: 500;
+}
+
 div {
 	width: 50%;
     word-wrap: break-word;
@@ -11,45 +15,71 @@ div {
 	width: 50%;
 }
 
+.container {
+	float: right;
+}
+
+.bold {
+	font-size: large;
+}
+.spacing.matt {
+	margin-left: 3px;
+}
+.spacing.matt1 {
+	margin-left: 3px;
+}
+.spacing.matt2 {
+	margin-left: 3px;
+}
+.spacing.matt3 {
+	margin-left: 3px;
+}
+.spacing.matt4 {
+	margin-left: 3px;
+}
+.spacing.matt5 {
+	margin-left: 3px;
+}
+
 .matt {
 	position:relative;
-	margin:1px;
-	top:1px;
+	margin:0.5px;
+	top:0.5px;
 	font-family: "HelveticaNeue-CondensedBold"
 }
 
 .matt1 {
 	position:relative;
-	margin:1px;
-	left:2px;
+	margin:0.5px;
+	left:0.2px;
 	font-family: "HelveticaNeue-CondensedBold"
 }
 .matt2 {
 	position:relative;
-	margin:1px;
-	left:1px;
-	bottom:1px;
+	margin:0.5px;
+	left:0.5px;
+	bottom:0.5px;
 	font-family: "HelveticaNeue-CondensedBold"
 }
 
 .matt3 {
 	position:relative;
-	margin:1px;
-	right:1px;
-	bottom:1px;
+	margin:0.5px;
+	right:0.5px;
+	bottom:0.5px;
 	font-family: "HelveticaNeue-CondensedBold"
 }
 
 .matt4 {
 	position:relative;
-	margin:1px;
-	right:1px;
+	margin:0.5px;
+	right:0.2px;
 	top:1px;
 	font-family: "HelveticaNeue-CondensedBold"
 }
 .matt5 {
 	position:relative;
-	margin:1px;
-	right:2px;
+	margin:0.5px;
+	right:0.2px;
 	font-family: "HelveticaNeue-CondensedBold"
 }
