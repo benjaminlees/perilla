@@ -6,6 +6,8 @@ var spacing = false;
 
 document.onkeydown = function (e) {
 
+	console.log(e)
+
 		setTimeout(function () {
 
 			if (e.keyCode === 8) {
@@ -18,6 +20,12 @@ document.onkeydown = function (e) {
 				document.getElementById("out-put").innerHTML += "<br />";
 				return;
 			}
+
+			if (e.keyCode === 187) {
+				document.getElementById("out-put").innerHTML += "<span class='tab'></span>";
+				return;
+			}
+
 			if (document.getElementById("text").value) {7
 				var style = '';
 				var text = document.getElementById("text").value;
@@ -29,6 +37,7 @@ document.onkeydown = function (e) {
 				if (bold && spacing) { style = "bold spacing "};
 				if (bold && !spacing) { style = "bold "};
 				if (!bold && spacing) { style = "spacing "};
+				if (center) { style = style + " center "};
 
 				style = style + styleArray[randomNum];
 				console.log(style)
