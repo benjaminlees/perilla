@@ -6,8 +6,6 @@ var spacing = false;
 
 document.onkeydown = function (e) {
 
-	console.log(e)
-
 		setTimeout(function () {
 
 			if (e.keyCode === 8) {
@@ -37,8 +35,7 @@ document.onkeydown = function (e) {
 				if (bold && spacing) { style = "bold spacing "};
 				if (bold && !spacing) { style = "bold "};
 				if (!bold && spacing) { style = "spacing "};
-				if (center) { style = style + " center "};
-
+				console.log(style)
 				style = style + styleArray[randomNum];
 				console.log(style)
 

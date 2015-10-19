@@ -23,25 +23,10 @@ div {
 }
 
 .bold {
-	font-size: large;
+	font-size: x-large;
 }
-.spacing.matt {
-	margin-left: 3px;
-}
-.spacing.matt1 {
-	margin-left: 3px;
-}
-.spacing.matt2 {
-	margin-left: 3px;
-}
-.spacing.matt3 {
-	margin-left: 3px;
-}
-.spacing.matt4 {
-	margin-left: 3px;
-}
-.spacing.matt5 {
-	margin-left: 3px;
+.spacing {
+	margin-left: 3px!important;
 }
 
 .matt {
@@ -75,7 +60,7 @@ div {
 
 .matt4 {
 	position:relative;
-	margin:0.5px;
+	margin:0.5px ;
 	right:0.2px;
 	top:1px;
 	font-family: "HelveticaNeue-CondensedBold"
